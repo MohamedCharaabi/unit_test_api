@@ -1,0 +1,19 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.4.4",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.1.6"
+  }
+}
