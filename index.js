@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/test", (req, res) => {
-  res.status(200).json("Hello world , this is a test json response");
+  res.status(200).json("Hello world , this is a test json res ponse");
 });
 
 app.get("/", (req, res) => {
